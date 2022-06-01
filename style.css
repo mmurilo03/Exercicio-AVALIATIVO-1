@@ -1,0 +1,25 @@
+body{
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #BA6324;
+    font-family: sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    color: black;
+}
+
+.grid-item{
+    background-color: #FEF8D0;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
